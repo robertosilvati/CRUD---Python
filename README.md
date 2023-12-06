@@ -1,13 +1,8 @@
-# Sistema de Gerenciamento de Pedidos - Projeto CRUD
+# Sistema de Gerenciamento de Pedidos - Projeto Inicial
 
-Este repositório contém um simples sistema de gerenciamento de pedidos desenvolvido em Django, utilizando SQLite como banco de dados. O projeto é um exemplo de CRUD (Create, Read, Update, Delete) que permite:
+Este repositório é um projeto inicial para um sistema de gerenciamento de pedidos em Django. Até o momento, a estrutura do projeto foi definida, mas ainda não foram implementadas funcionalidades específicas.
 
-- **Inserir um Novo Pedido:** Adicione informações sobre o cliente e produtos associados.
-- **Visualizar Todos os Pedidos:** Consulte uma lista completa de pedidos, incluindo detalhes dos produtos.
-- **Atualizar um Pedido:** Modifique o nome do cliente ou ajuste os detalhes dos produtos existentes.
-- **Excluir um Pedido:** Remova pedidos e seus produtos associados do sistema.
-
-## Como Usar
+## Como Iniciar o Projeto
 
 1. **Clone este repositório:**
     ```bash
@@ -27,14 +22,12 @@ Este repositório contém um simples sistema de gerenciamento de pedidos desenvo
     ```bash
     pip install -r requirements.txt
     ```
-
+    
 4. **Execute o servidor Django:**
     ```bash
     python manage.py runserver
     ```
-
-5. **Acesse a aplicação em [http://localhost:8000/](http://localhost:8000/)**
-
+    
 ## Estrutura do Projeto
 
 ```plaintext
@@ -57,8 +50,10 @@ setup/
 |-- manage.py
 |-- requirements.txt
 |-- README.md
+```
 
-##  Dependências
+## Dependências
+```
 asgiref==3.7.2
 Django==5.0
 prettytable==3.9.0
@@ -66,3 +61,9 @@ python-dotenv==1.0.0
 sqlparse==0.4.4
 typing_extensions==4.8.0
 wcwidth==0.2.12
+```
+## Contribuições e Sugestões de Melhoria
+
+Contribuições e sugestões de melhoria são bem-vindas! Se encontrar algum problema, tiver ideias para novos recursos ou melhorias, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**
+
+Estamos ansiosos para tornar este projeto ainda melhor com a ajuda da comunidade!
