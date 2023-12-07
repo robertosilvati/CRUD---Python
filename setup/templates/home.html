@@ -1,23 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Home</title>
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4caf50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="container">
+        <h1>Bem-vindo à Página Inicial</h1>
+        <p>Esta é uma página inicial simples para começar o seu projeto.</p>
 
-    <header>
-        <h1>Bem-vindo à Minha Página Home</h1>
-    </header>
-
-    <main>
-        <p>Esta é a minha página inicial. Sinta-se à vontade para explorar.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Minha Página Home. Todos os direitos reservados.</p>
-    </footer>
-
+        <a href="/view-items" class="button">Ver Itens</a>
+        <a href="/add-item" class="button">Adicionar Item</a>
+        <a href="/edit-delete-items" class="button">Editar / Excluir Itens</a>
+    </div>
 </body>
+
 </html>
