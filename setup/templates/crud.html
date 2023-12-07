@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema CRUD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .crud-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .crud-section {
+            width: 30%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .item-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .item-list li {
+            margin-bottom: 5px;
+        }
+
+        .form-container {
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input,
+        form button {
+            margin: 5px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            cursor: pointer;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CRUD Theme</h1>
+
+    <div class="crud-container">
+        <div class="crud-section">
+            <h2>View Items</h2>
+            <ul class="item-list">
+                <!-- List of items goes here -->
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+
+        <div class="crud-section">
+            <h2>Add Item</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="newItem">New Item:</label>
+                    <input type="text" id="newItem" name="newItem" required>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="crud-section">
+            <h2>Edit / Delete Item</h2>
+            <ul class="item-list">
+                <!-- List of editable items goes here -->
+                <li><span>Edit</span> Item 1 | <span>Delete</span> Item 1</li>
+                <li><span>Edit</span> Item 2 | <span>Delete</span> Item 2</li>
+                <li><span>Edit</span> Item 3 | <span>Delete</span> Item 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
