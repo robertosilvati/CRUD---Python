@@ -12,7 +12,7 @@ Este repositório é um projeto inicial para um sistema de gerenciamento de pedi
 
 2. **Crie e ative um ambiente virtual:**
     ```bash
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate  # Para Linux/Mac
     # Ou
     .\venv\Scripts\activate  # Para Windows
