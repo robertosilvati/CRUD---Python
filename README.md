@@ -6,8 +6,8 @@ Este repositório é um projeto inicial para um sistema de gerenciamento de pedi
 
 1. **Clone este repositório:**
     ```bash
-    git clone https://github.com/robertosilvati/setup.git
-    cd setup
+    git clone https://github.com/robertosilvati/CRUD---Python.git
+    cd CRUD---Python
     ```
 
 2. **Crie e ative um ambiente virtual:**
@@ -31,26 +31,32 @@ Este repositório é um projeto inicial para um sistema de gerenciamento de pedi
 ## Estrutura do Projeto
 
 ```plaintext
-setup/
-|-- setup/
-|   |-- settings.py
-|   |-- urls.py
-|   |-- asgi.py
-|   |-- wsgi.py
+CRUD---Python/
 |-- crud/
 |   |-- migrations/
-|   |-- templates/
-|   |-- static/
+|   |   |-- __init__.py
 |   |-- __init__.py
 |   |-- admin.py
 |   |-- apps.py
 |   |-- models.py
 |   |-- tests.py
+|   |-- urls.py
 |   |-- views.py
-|-- manage.py
-|-- requirements.txt
+|-- setup/
+|   |-- templates/
+|   |   |-- crud.html
+|   |   |-- home.html
+|   |-- __init__.py
+|   |-- asgi.py
+|   |-- settings.py
+|   |-- urls.py
+|   |-- wsgi.py
+|-- .gitignore
+|-- database.db
+|-- main.py
 |-- README.md
-```
+|-- requirements.txt
+
 
 ## Dependências
 ```
