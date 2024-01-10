@@ -56,10 +56,12 @@ CRUD---Python/
 |-- main.py
 |-- README.md
 |-- requirements.txt
+```
+
 
 
 ## Dependências
-```
+```plaintext
 asgiref==3.7.2
 Django==5.0
 prettytable==3.9.0
